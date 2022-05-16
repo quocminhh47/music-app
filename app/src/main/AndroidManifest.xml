@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ptithcm.mobile">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MOBILE_CK"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".CaSiSuccessActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CaSiSuccessActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".BuoiDienSuccessActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BuoiDienSuccessActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".BuoiDienSuccessActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".CaSiChart"
+            android:exported="false" />
+        <activity
+            android:name=".nhacsi.NhacSiUserMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".nhacsi.NhacSiSuccessActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".baihat.BaiHatSuccessActivity"
+            android:exported="false" />
+        <activity
+            android:name=".baihat.BaiHatSuccessActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".baihat.BaiHatAdminMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".baihat.BaiHatChartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".nhacsi.MainNhacSiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".nhacsi.NhacSiAddActivity"
+            android:exported="false" />
+        <activity
+            android:name=".nhacsi.NhacSiInfo"
+            android:exported="false" />
+        <activity
+            android:name=".nhacsi.NhacSiUpdateDeleteActivuty"
+            android:exported="false" />
+        <activity
+            android:name=".baihat.BaiHatEditDeleteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".baihat.BaiHatAddActivity"
+            android:exported="false" />
+        <activity
+            android:name=".baihat.BaiHatPlayMusicActivity"
+            android:exported="false" />
+        <activity
+            android:name=".baihat.BaiHatUserMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminMainActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCnmuCcvdyN6cwTQUoNfapAoLiAoe9s3IM" />
+
+        <activity
+            android:name=".MapActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminChiTietCaSi"
+            android:exported="false" />
+        <activity
+            android:name=".UserCaSi"
+            android:exported="false" />
+        <activity
+            android:name=".AdminCaSi"
+            android:exported="false" />
+        <activity
+            android:name=".ChiTietCaSi"
+            android:exported="false" />
+        <activity
+            android:name=".AddCaSi"
+            android:exported="false" />
+        <activity
+            android:name=".ThongKeBuoiDienActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".XemCommentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InsertBuoiDienActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminEditBuoiDien"
+            android:exported="false" />
+        <activity
+            android:name=".CommentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminBuoiDien"
+            android:exported="false" />
+        <activity
+            android:name=".SingleBuoiBieuDien"
+            android:exported="false" />
+        <activity
+            android:name=".service.SendMailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChiTietBuoiDienActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

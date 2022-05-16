@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".SingleBuoiBieuDien">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_regular"
+            android:text="Mã Ca Sĩ: "
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/txtMaCS"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/edit_background"
+            android:drawableLeft="@drawable/ic_insert_ma_buoi_dien"
+            android:hint="Mã Ca Sĩ. VD CS07"
+            android:textSize="20dp"
+            android:enabled="false"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_regular"
+            android:text="Tên Ca Sĩ: "
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/txtTenCS"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/edit_background"
+            android:drawableLeft="@drawable/ic_name"
+            android:hint="Tên Ca Sĩ. VD: Ho Ngoc Khac Hung"
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_regular"
+            android:text="Hình ảnh: "
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/txtUrl"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/edit_background"
+            android:drawableLeft="@drawable/ic_insert_image"
+            android:hint="URL image: https://........." />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center">
+            <androidx.appcompat.widget.AppCompatButton
+                android:background="@drawable/btn_background"
+                android:textColor="@color/white"
+                android:layout_marginTop="10dp"
+                android:layout_width="150dp"
+                android:layout_marginBottom="10dp"
+                android:layout_height="wrap_content"
+                android:text="Sửa"
+                android:id="@+id/btnSua"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/btn_background"
+                android:textColor="@color/white"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Xóa"
+                android:id="@+id/btnXoa"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

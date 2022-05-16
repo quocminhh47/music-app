@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".AdminBuoiDien">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-------ADMIN PAGE-------"
+        android:textSize="24sp"
+        android:fontFamily="@font/opeansans_cond_light"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textColor="@color/blue"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Danh sách buổi diễn"
+        android:textSize="18sp"
+        android:fontFamily="@font/opeansans_cond_light"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textColor="@color/blue"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ListView
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:id="@+id/lvAdminBuoiDien"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            />
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/btn_background"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New"
+        android:id="@+id/btnNew"/>
+</LinearLayout>

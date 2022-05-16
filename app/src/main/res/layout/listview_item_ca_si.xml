@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="105dp"
+    android:background="@color/white"
+    android:gravity="center"
+    android:layout_marginBottom="40dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginLeft="15dp"
+    android:layout_gravity="center_horizontal">
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/spotlight"
+            android:id="@+id/idImage" />
+
+        <!--<ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/spotlight"
+            android:id="@+id/idImage"/>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical">
+            <TextView
+                android:fontFamily="@font/opeansans_cond_light"
+                android:textStyle="bold"
+                android:id="@+id/tvMaCS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:text="Mã CS"
+                android:textSize="25dp" />
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:fontFamily="@font/opeansans_cond_light"
+                    android:textColor="@color/black"
+                    android:id="@+id/tvTenCS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Tên CS"
+                    android:textSize="25dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity"
+    android:id="@+id/mainLayout"
+    android:background="@drawable/main_bg">
+
+    <TextView
+        style="@style/styleTieuDe"
+        android:text="QUẢN LÝ ÂM NHẠC - NHÓM 2"
+        />
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/main_img"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/listen"
+            android:layout_marginRight="10dp"/>
+        <Button
+            android:id="@+id/quanLyCS"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="QUẢN LÝ CA SĨ"
+            android:background="@drawable/custom_button"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/people"
+            android:layout_marginRight="10dp"/>
+        <Button
+            android:id="@+id/quanLyNS"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="QUẢN LÝ NHẠC SĨ"
+            android:background="@drawable/custom_button"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/love_song"
+            android:layout_marginRight="10dp"/>
+        <Button
+            android:id="@+id/quanLyBH"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="QUẢN LÝ BÀI HÁT"
+            android:background="@drawable/custom_button"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/spotlight"
+            android:layout_marginRight="10dp"/>
+        <Button
+            android:id="@+id/quanLyBD"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="QUẢN LÝ BUỔI DIỄN"
+            android:background="@drawable/custom_button"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/process"
+            android:layout_marginRight="10dp"/>
+        <Button
+            android:id="@+id/btnSendMail"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="SEND MAIL "
+            android:background="@drawable/custom_button"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/process"
+            android:layout_marginRight="10dp"/>
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Login "
+            android:background="@drawable/custom_button"/>
+    </LinearLayout>
+
+
+</LinearLayout>

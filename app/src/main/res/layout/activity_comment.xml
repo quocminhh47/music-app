@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".CommentActivity">
+    <ImageView
+        android:src="@drawable/ic_comment"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:layout_marginBottom="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/design_default_color_primary"
+        android:layout_marginBottom="20dp"
+        android:text="COMMENT"/>
+
+    <EditText
+        android:drawableLeft="@drawable/ic_comment_name"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/edit_background"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Name"
+        android:id="@+id/txtName"/>
+
+    <EditText
+        android:drawableLeft="@drawable/ic_comment_mess"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/edit_background"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Message"
+        android:id="@+id/txtMess"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/btn_background"
+        android:textColor="@color/white"
+        android:id="@+id/btnCMT"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Comment"/>
+
+</LinearLayout>

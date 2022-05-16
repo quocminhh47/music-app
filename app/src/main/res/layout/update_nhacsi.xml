@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+
+    <TextView
+        style="@style/styleTieuDe"
+        android:fontFamily="@font/poppins_regular"
+        android:text="@string/ttNs" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/avaNS"
+            android:layout_width="123dp"
+            android:layout_height="111dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp" />
+    </LinearLayout>
+
+    <TextView
+        style="@style/tvTr"
+
+        android:fontFamily="@font/poppins_regular"
+        android:text="@string/maNhacSi" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editTextMaNS"
+
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/edit_background"
+            android:focusable="false" />
+    </LinearLayout>
+
+    <TextView
+        style="@style/tvTr"
+
+        android:fontFamily="@font/poppins_regular"
+        android:text="@string/tenNhacSi" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editTextTenNS"
+
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/edit_background"
+            android:drawableStart="@drawable/ic_mabuoidien_icon" />
+    </LinearLayout>
+
+    <TextView
+        style="@style/tvTr"
+
+        android:fontFamily="@font/poppins_regular"
+        android:text="@string/gthieu" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editTextGioiThieu"
+
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/edit_background"
+            android:drawableStart="@drawable/ic_mabuoidien_icon" />
+    </LinearLayout>
+
+    <TextView
+        style="@style/tvTr"
+        android:fontFamily="@font/poppins_regular"
+        android:text="URL hình ảnh" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editTextHinh"
+
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/edit_background"
+            android:drawableStart="@drawable/ic_mabuoidien_icon" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnTacPham"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@drawable/custom_button"
+            android:text="@string/btnList" />
+
+        <Button
+            android:id="@+id/btnSua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@drawable/custom_button"
+            android:text="@string/btnSua" />
+
+        <Button
+            android:id="@+id/btnXoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@drawable/custom_button"
+            android:text="@string/btnXoa" />
+
+
+    </LinearLayout>
+</LinearLayout>

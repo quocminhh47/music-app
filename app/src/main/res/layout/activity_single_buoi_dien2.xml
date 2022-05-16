@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:textAlignment="center"
+        android:textColor="@color/blue"
+        android:text="THÔNG TIN BUỔI DIỄN "
+        android:layout_marginBottom="10dp"/>
+<!--    1 row-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_marginLeft="15dp"
+            android:layout_width="150dp"
+            android:background="@drawable/btn_single_item1"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_height="80dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mã BD:"
+                android:textSize="20sp"
+                android:textAlignment="center"
+
+                android:textColor="@color/white"
+                android:fontFamily="@font/opeansans_cond_light" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BD001"
+                android:textSize="24sp"
+                android:textAlignment="center"
+                android:id="@+id/tvMaBuoiDien"
+                android:textColor="@color/white"
+                android:fontFamily="@font/opensans_cound_bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="45dp"
+            android:layout_width="150dp"
+            android:background="@drawable/btn_single_item2"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_height="80dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mã CS:"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:fontFamily="@font/opeansans_cond_light" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CS001"
+                android:textSize="24sp"
+                android:textAlignment="center"
+                android:id="@+id/tvMaCaSi"
+                android:textColor="@color/white"
+                android:fontFamily="@font/opensans_cound_bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <!--    2nd row-->
+    <LinearLayout
+        android:layout_marginTop="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_marginLeft="15dp"
+            android:layout_width="150dp"
+            android:background="@drawable/btn_single_item3"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_height="80dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mã BH:"
+                android:textSize="20sp"
+                android:textAlignment="center"
+
+                android:textColor="@color/white"
+                android:fontFamily="@font/opeansans_cond_light" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BH001"
+                android:textSize="24sp"
+                android:textAlignment="center"
+                android:id="@+id/tvMaBaiHat"
+                android:textColor="@color/white"
+                android:fontFamily="@font/opensans_cound_bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="45dp"
+            android:layout_width="150dp"
+            android:background="@drawable/btn_single_item4"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_height="80dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ngày BD :"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:fontFamily="@font/opeansans_cond_light" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="01/02/2022"
+                android:textSize="24sp"
+                android:textAlignment="center"
+                android:id="@+id/tvNgayBieuDien"
+                android:textColor="@color/white"
+                android:fontFamily="@font/opensans_cound_bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+    <!--    3rd row-->
+    <LinearLayout
+        android:layout_marginTop="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_marginLeft="15dp"
+            android:layout_width="150dp"
+            android:background="@drawable/btn_single_item5"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_height="80dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/opeansans_cond_light"
+                android:text="Place:"
+                android:textAlignment="center"
+
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="hochiminh"
+                android:textSize="24sp"
+                android:textAlignment="center"
+                android:id="@+id/tvDiaDiem"
+                android:textColor="@color/white"
+                android:fontFamily="@font/opensans_cound_bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="45dp"
+            android:layout_width="150dp"
+            android:background="@drawable/btn_single_item6"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_height="80dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Image :"
+                android:textSize="24sp"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:fontFamily="@font/opeansans_cond_light" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:fontFamily="@font/opensans_cound_bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/imgView"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_marginRight="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_background"
+            android:textColor="@color/white"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Export PDF"
+            android:id="@+id/btnPDF"
+            android:fontFamily="@font/opeansans_cond_light"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_background"
+            android:textColor="@color/white"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Check your location"
+            android:id="@+id/btnMap"
+            android:fontFamily="@font/opeansans_cond_light"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

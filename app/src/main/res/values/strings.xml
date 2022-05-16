@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">MOBILE_CK</string>
+    //
+    <string name="ttbh">Thông tin bài hát</string>
+    <string name="tbh">Thêm bài hát</string>
+    <string name="dsbh">Danh sách bài hát</string>
+    <string name="ma_bh">MBH</string>
+    <string name="ten_bh">TÊN BH</string>
+    <string name="ma_ns">MÃ NS</string>
+    <string name="nam_st">Năm sáng tác</string>
+    <string name="img">IMG</string>
+    <string name="them">Thêm</string>
+    <string name="xoa">Xoá</string>
+    <string name="sua">Sửa</string>
+    <string name="hien_thi">Hiển thị</string>
+    <string name="tk">Thống kê bài hát theo nhạc sĩ</string>
+    <string name="tro_ve">Trở về</string>
+    <string name="loc_theo_ten_ns">Lọc theo tên nhạc sĩ</string>
+    //
+    <string name="nhacSiTitle">Danh sách Nhạc sĩ</string>
+    <string name="title">Quản lý Nhạc sĩ</string>
+    <string name="timKiem">Tìm kiếm</string>
+
+    <string name="thongKe">Thống kê</string>
+    <string name="tenNhacSi">Tên Nhạc Sĩ</string>
+    <string name="maNhacSi">Mã Nhạc Sĩ</string>
+
+    <string name="themNhacSi">Thêm Nhạc Sĩ</string>
+    <string name="thongTinNhacSi">Thông tin Nhạc sĩ</string>
+    <string name="troVe">Trở về</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+
+    <string name="dsNhacSi">Danh sách Nhạc Sĩ</string>
+
+    <string name="gthieu">Giới thiệu</string>
+    <string name="hinh">Hình ảnh</string>
+    <string name="ttNs">Thông tin Nhạc Sĩ</string>
+    <string name="btnThem">Thêm</string>
+    <string name="btnSua">Sửa</string>
+    <string name="btnXoa">Xóa</string>
+    <string name="btnList">Tác phẩm</string>
+    <string name="dsTacPham">Danh Sách Tác phẩm</string>
+</resources>
